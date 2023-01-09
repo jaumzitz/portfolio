@@ -75,12 +75,11 @@ body {
 }
 
 .perfil {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .perfil__foto {
-    width: 50%;
+    width: 26vh;
     border: 1px solid;
     box-shadow: 13px 10px #ccf381;
     margin: 5vh;
