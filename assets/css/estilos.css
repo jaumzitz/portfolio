@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    background-color: #4831d4;
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: #FFFFFF;
+    
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px
+}
+
+.cabecalho__logo {
+    width: 40%
+}
+
+
+.titulo-pagina {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding: 15vh 5vw 0;
+    margin: 0 5vw 0;
+    color: #ccf381
+
+}
+
+.subtitulo-pagina {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 8vw 5vh;
+    line-height: 1.4;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil__foto {
+    width: 50%;
+    border: 1px solid;
+    box-shadow: 13px 10px #ccf381;
+    margin: 5vh;
+}
+
+.projetos {
+    height: 100vh;
+    background-color: #ccf381;
+}
+
+.projetos__titulo {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding: 15vh 5vw 0;
+    margin: 0 5vw 0;
+    color: #4831d4;
+}
+
+.projetos__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projetos__card--mockup-pc {
+    width: 100%;
+    margin: 10vh 0 0;
+    
+}
+
+.projetos__card--titulo {
+    border: 2px solid #4831d4;
+    margin: 0 5vw;
+    padding: 10px;
+    font-family: 'Poppins';
+    color: #4831d4;
+    font-size: 1.3rem;
+    text-align: center;
+}
