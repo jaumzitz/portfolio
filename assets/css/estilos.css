@@ -24,11 +24,12 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 5vh 10vw 0;
+    margin: 5vh 10vw 0;
 }
 
 .cabecalho__logo {
-    width: 21vh
+    height: auto;
+    max-width: 23vh;
 }
 
 
