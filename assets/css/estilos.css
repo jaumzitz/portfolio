@@ -23,14 +23,37 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: center;
-    padding-top: 30px
+    justify-content: space-between;
+    padding: 5vh 10vw 0;
 }
 
 .cabecalho__logo {
-    width: 40%
+    width: 21vh
 }
 
+
+
+.material-symbols-outlined {
+    font-size: 46px !important;
+    caret-color: transparent !important;
+    vertical-align: sub !important;
+}
+
+.menu-lateral {
+    height: 100vh;
+    background-color: white;
+    color: #4831d4;
+    font-family: 'Poppins';
+    font-size: 1.6rem;
+    padding: 10vh 10vw;
+    font-weight: 500;
+    line-height: 5rem;
+
+}
+
+.menu-lateral--inativo {
+    display: none;
+}
 
 .titulo-pagina {
     font-family: 'Poppins';
@@ -46,7 +69,8 @@ body {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 1.2rem;
-    padding: 8vw 5vh;
+    padding: 5vh 5vw;
+    margin: 0 5vw;
     line-height: 1.4;
 }
 
@@ -96,4 +120,8 @@ body {
     color: #4831d4;
     font-size: 1.3rem;
     text-align: center;
+}
+
+ .mouse {
+    font-size: 24px !important;
 }
