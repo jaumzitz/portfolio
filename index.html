@@ -7,12 +7,25 @@
     <title>João Fiorini | Web Dev</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <body>
+    
+    
+
    <header class="cabecalho">
     <img src="assets/img/Logo.png" alt="" class="cabecalho__logo">
+    <i class="material-symbols-outlined cabecalho__menu">menu</i>
    </header>
+
+   <nav class="menu-lateral menu-lateral--inativo">
+        <ul>
+            <li class="menu-lateral__item">Home</li>
+            <li class="menu-lateral__item">Projetos</li>
+            <li class="menu-lateral__item">Contato</li>
+            
+            
+        </ul>
+   </nav>
 
    <main class="principal">
         <h1 class="titulo-pagina">Desenvolvedor Web.</h1>
@@ -21,7 +34,10 @@
         <div class="perfil">
             <img src="assets/img/perfil.png" alt="" class="perfil__foto">
         </div>
+        
    </main>
+   
+   
 
    <section class="projetos">
         <h2 class="projetos__titulo">Meus<br>Projetos</h2>
@@ -29,10 +45,11 @@
         <article class="projetos__card">
             <img src="assets/img/mockup-intranet-home.png" alt="" class="projetos__card--mockup-pc">
             <div class="projetos__card--conteudo">
-                <p class="projetos__card--titulo"><i class="material-symbols-outlined">mouse</i>Intranet | Unimed Litoral</p>
+                <p class="projetos__card--titulo"><i class="mouse material-symbols-outlined ">mouse</i>Intranet | Unimed Litoral</p>
             </div>
         </article>
    </section>
+   <script src="assets/js/script.js"></script>
 
 </body>
 </html>
